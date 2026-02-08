@@ -1,2 +1,7 @@
-# office-lab1
-First ever Git repo. This is used to learn GitHub and to document what I implemented in Office Lab
+# Office Lab Documentation
+
+## Firewall
+- Device: Clavister E80 G2
+- Goal: Allow ICMP from LAN to firewall
+- Issue: Rules not matching, logs not showing
+- Fix: (write later)
