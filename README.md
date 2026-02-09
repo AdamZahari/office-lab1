@@ -15,10 +15,10 @@ This setup is **work in progress** and will evolve as I test different architect
 - Network: Proxmox bridge connected to ISP router
 
 **Virtual Machines**
-1. **Ubuntu Server – Elasticsearch**
+1. **Ubuntu Server – Elasticsearch & Kibana**
    - Purpose: Elasticsearch node for log storage and search
-2. **Ubuntu Server – Kibana & Elastic Agent**
-   - Purpose: Kibana dashboard and Elastic Agent for data collection
+2. **Ubuntu Server – Fleet Server**
+   - Purpose: Manages Fleet Server & Elastic Agents for data collection
 
 > Note: This separation is temporary. The architecture may change (e.g. single-node stack, Elastic Agent on separate hosts, or containerized deployment).
 
