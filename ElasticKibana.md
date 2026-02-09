@@ -1,10 +1,16 @@
-# Elasticsearch & Kibana
+# ELK Stack Architecture
 
 ## Overview
-This file documents about Elasticsearch and Kibana. Both of these have been installed inside the ubuntu-server VM.
-For this lab purposes, it will be called VM1 as a reference. 
+This file documents about Elasticsearch, Kibana and Fleet in the office-lab1. All of these have been successfully installed inside the respective VMs.
+
 
 ## Current VM Architecture
 
-**Host**
-- VM: Ubuntu Server
+**Host/Resources**
+- VM1: ubuntu-server
+-   Manages Elasticsearch + Kibana
+-   Elastic Agent is also installed
+- VM2: ubuntu-fleet
+-   Manages Fleet Server
+
+**Later
