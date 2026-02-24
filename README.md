@@ -19,6 +19,8 @@ This setup is **work in progress** and will evolve as I test different architect
    - Purpose: Elasticsearch node for log storage and search
 2. **Ubuntu Server – Fleet Server**
    - Purpose: Manages Fleet Server & Elastic Agents for data collection
+3. **Ubuntu Server - Logstash**
+   - Purpose: Central component for log management, real-time analytics and data aggregation
 
 > Note: This separation is temporary. The architecture may change (e.g. single-node stack, Elastic Agent on separate hosts, or containerized deployment).
 
@@ -46,7 +48,6 @@ All VMs currently obtain IP addresses from the ISP router network.
 
 ## What Will Change
 Planned or possible changes:
-- Merge Elasticsearch and Kibana into a single VM
 - Add Elastic Agents on additional VMs or hosts
 - Introduce VLANs or firewall segmentation
 - Replace VMs with containers (Docker / Podman)
