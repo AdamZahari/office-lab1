@@ -42,6 +42,7 @@ All VMs currently obtain IP addresses from the ISP router network.
 - Understand Elastic Stack deployment and communication
 - Practice log ingestion, visualization, and monitoring
 - Experiment with different Elastic Stack architectures
+- Learn deeper about Elastic's security
 - Build proper documentation for future reference and troubleshooting
 
 ---
